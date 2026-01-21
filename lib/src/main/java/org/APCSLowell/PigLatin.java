@@ -2,7 +2,7 @@ package org.APCSLowell;
 
 public class PigLatin {
     public int findFirstVowel(String sWord) {
-        char[] vowels = {'a', 'e', 'i', 'o', 'u', 'y'};
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
         for (int i = 0; i < sWord.length(); i++) {
             for (char vowel : vowels) {
                 if (sWord.charAt(i) == vowel) return i;
